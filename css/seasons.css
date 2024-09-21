@@ -1,0 +1,146 @@
+body {
+    background-color: #434343;
+}
+
+.collapsible {
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-radius: 18px;
+    text-align: left;
+    outline: none;
+    font-size: 60px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 400;
+    margin-top: 70px;
+    border: none;
+    height: 180px;
+    padding-top: 75px;
+    transition: all 0.3s ease;
+}
+
+.collapsible.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-top: 0;
+    padding-bottom: 60px;
+    background-color: #d9d9d9;
+    transition: all 0.3s ease; /* Animasyon süresi ve geçiş efekti */
+}
+
+
+
+.content {
+    padding: 0 18px;
+    background-size: cover;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #5ccb83;
+  }
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.option-item {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.option-item img {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: auto;
+    transition: filter 0.2s ease;
+}
+
+.option-item img:hover {
+    filter: invert(100%);
+}
+
+.option-item p {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.media-section {
+    display: flex;
+    align-items: center; /* Dikey ortalama */
+    justify-content: space-between; /* İki sütunu aralıklı yerleştirme */
+    gap: 20px; /* İki sütun arasındaki boşluk */
+    background-color: #eaeaea;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 250px;
+}
+
+.season-logo img {
+    height: 200px;
+    border-radius: 15px;
+    width: auto;
+    margin-left: 35%;
+}
+
+.video video{
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 200px;
+    width: auto;
+}
+
+.video {
+    margin-right: 10%;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+#M2024 {
+    background-image: url('../images/seasons/2024bg.png');
+    background-size: cover;
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+}
+#Con2024 {
+    background-color: #5ccb83;
+}
+
+
+#M2023 {
+    background-image: url('../images/seasons/2023bg.png');
+    background-size: cover;
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+}
+#Con2023 {
+    background-color: #ffb600;
+}
+
+
+#M2022 {
+    background-image: url('../images/seasons/2022bg.png');
+    background-size: cover;
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+}
+#Con2022 {
+    background-color: #68c3e2;
+}
+
+

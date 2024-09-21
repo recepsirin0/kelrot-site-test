@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.container img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.container h1 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 22px;
+    color: #666666;
+}
